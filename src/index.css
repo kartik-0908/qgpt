@@ -12,8 +12,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-a{
-  color: green;
+
+body{
+  font: 100;
 }
 
 
