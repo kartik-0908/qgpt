@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, createBrowserRouter, createRoutesFromElements,RouterProvider } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import Model1 from './pages/model1.jsx'
-import './App.css'
+import './style/app.css'
 import Model2 from './pages/model2.jsx';
 
 const router = createBrowserRouter(

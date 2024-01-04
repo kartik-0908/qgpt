@@ -4,13 +4,19 @@ function Navbar() {
     return (
         <nav className="navbar">
             <div className='home_div'>
-                <NavLink to="/" activeClassName="active_navbar_item">Home</NavLink>
+                <div className='home_div--text'>
+                    <NavLink to="/" >Home</NavLink>
+                </div>
             </div>
             <div className='navbar_model_div'>
+                <div className='navbar_model_div--text'>
                 <NavLink to="/model1" activeClassName="active_navbar_item">model 1</NavLink>
+                </div>
             </div>
             <div className='navbar_model_div'>
-                <NavLink to="/model2" activeClassName="active_navbar_item">odel 2</NavLink>
+                <div className='navbar_model_div--text'>
+                <NavLink to="/model2" activeClassName="active_navbar_item">model 2</NavLink>
+                </div>
             </div>
         </nav>
     );
