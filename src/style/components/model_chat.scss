@@ -1,0 +1,12 @@
+.mc{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .mc__box{
+        width: 80%;
+        height: 95%;
+        color: black;
+        background-color: aliceblue;
+    }
+}

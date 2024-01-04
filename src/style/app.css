@@ -1,0 +1,185 @@
+.main_div {
+  background-color: rgb(52, 56, 64);
+  height: 100vh;
+  color: whitesmoke;
+  display: flex;
+}
+.main_div .main_div__nav {
+  width: 15%;
+}
+.main_div .qna_area {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+}
+.main_div .qna_area .qna_heading {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  font-size: 1.3rem;
+}
+
+.m1 {
+  background-color: rgb(52, 56, 64);
+  height: 100vh;
+  color: whitesmoke;
+  display: flex;
+}
+.m1 .m1__nav {
+  width: 15%;
+}
+.m1 .m1__qna {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+}
+.m1 .m1__qna .m1__qna__hd {
+  flex: 1;
+}
+.m1 .m1__qna .m1__qna__chat {
+  flex: 7;
+}
+.m1 .m1__qna .m1__qna__input {
+  flex: 2;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  padding-top: 10px;
+  background-color: #5b5864;
+  overflow-y: auto;
+}
+.navbar a {
+  text-decoration: none;
+  color: #FAF0E6;
+}
+.navbar .home_div,
+.navbar .navbar_model_div {
+  width: 100%;
+  font-weight: 900;
+  font-size: xx-large;
+  text-align: center;
+}
+.navbar .home_div .home_div--text,
+.navbar .navbar_model_div .home_div--text {
+  padding: 20px;
+}
+.navbar .home_div:hover,
+.navbar .navbar_model_div:hover {
+  background-color: rgba(223, 219, 219, 0.998);
+}
+.navbar .home_div:hover a,
+.navbar .navbar_model_div:hover a {
+  color: #352F44;
+}
+.navbar .navbar_model_div {
+  font-size: x-large;
+}
+.navbar .navbar_model_div .navbar_model_div--text {
+  padding: 15px;
+}
+
+.navbar_model_div--text .active, .home_div--text .active {
+  color: rgb(173, 211, 217);
+}
+
+.mh {
+  height: 100%;
+  color: whitesmoke;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mh .mh--text {
+  font-size: 20px;
+}
+
+.mc {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mc .mc__box {
+  width: 80%;
+  height: 95%;
+  color: black;
+  background-color: aliceblue;
+}
+
+.mi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.mi .mi__box {
+  width: 90%;
+  height: 80%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: whitesmoke;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.mi .mi__box .mi__box__tf {
+  width: 85%;
+  height: 80%;
+}
+.mi .mi__box .mi__box__tf .mi__box__tf--if {
+  width: 100%;
+  height: 100%;
+  border: none;
+  overflow: auto;
+  padding-right: 2px;
+  background-color: transparent;
+  color: whitesmoke;
+  font-size: larger;
+  line-height: 1.3rem;
+  resize: none;
+}
+.mi .mi__box .mi__box__tf .mi__box__tf--if:focus {
+  outline: none;
+}
+.mi .mi__box .mi__box__tf .mi__box__tf--if::-webkit-scrollbar {
+  width: 5px;
+}
+.mi .mi__box .mi__box__tf .mi__box__tf--if::-webkit-scrollbar-thumb {
+  background: #888;
+}
+.mi .mi__box .mi__box__tf .mi__box__tf--if::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.mi .mi__box .mi__box__sb {
+  width: 5%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mi .mi__box .mi__box__sb .mi__box__sb--btn {
+  width: 100%;
+  height: 100%;
+  font-size: 2rem;
+  background: none;
+  border-width: 1px;
+  border-style: solid;
+  border-color: whitesmoke;
+  border-radius: 0.5rem;
+  color: whitesmoke;
+}
+.mi .mi__box .mi__box__sb .mi__box__sb--btn:hover {
+  color: black;
+  background-color: grey;
+  border-color: grey;
+}
+
+/*# sourceMappingURL=app.css.map */
