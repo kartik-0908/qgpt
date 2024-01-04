@@ -1,0 +1,52 @@
+.navbar {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    padding-top: 10px;
+    background-color: #5b5864;
+    overflow-y: auto;
+
+    a {
+        text-decoration: none;
+        color: #FAF0E6;
+
+    }
+
+
+
+    .home_div,
+    .navbar_model_div {
+        width: 100%;
+        font-weight: 900;
+        font-size: xx-large;
+        text-align: center;
+
+        .home_div--text {
+            padding: 20px;
+        }
+
+        &:hover {
+            background-color: rgba(223, 219, 219, 0.998);
+
+            a {
+                color: #352F44;
+            }
+        }
+    }
+
+    .navbar_model_div {
+        font-size: x-large;
+
+        .navbar_model_div--text {
+            padding: 15px;
+        }
+
+    }
+}
+
+.navbar_model_div--text, .home_div--text{
+    .active{
+        color: rgb(173, 211, 217);
+    }
+}

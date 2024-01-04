@@ -1,0 +1,26 @@
+.m1{
+    background-color: rgb(52, 56, 64);
+    height: 100vh;
+    color: whitesmoke;
+    display: flex;
+
+    .m1__nav{
+        width: 15%;
+    }
+
+    .m1__qna{
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        .m1__qna__hd{
+            flex: 1;
+        }
+        .m1__qna__chat{
+            flex: 7;
+        }
+        .m1__qna__input{
+            flex: 2;
+        }
+    }
+}
+
